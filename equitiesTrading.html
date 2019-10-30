@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="myStyle.css"/>
+    <title>Equities Trading</title>
+</head>
+<body>
+
+    <h1>Equities Trading</h1>
+    <button class="accordion">What does Lead Securities & Investment Limited do?</button>
+    <div class="panel">
+        <p>Lead Securities & Investment Limited is a 
+            stockbroking firm registered with the Nigerian Stock Exchange. 
+            We provide corporate and retail service solutions to both local and 
+            international investors. We are a subsidiary of Lead Capital Group.</p>
+    </div>
+
+    <button class="accordion">Where are we located?</button>
+<div class="panel">
+  <p>Our head office is located at 281 Ajose Adeogun Street, 
+      Victoria Island, Lagos. However, 
+      we also have Representative offices in Abuja and Port Harcourt.</p>
+</div>
+
+<button class="accordion">Why do I need LeadTrader?</button>
+<div class="panel">
+  <p>Equity trading today has become totally digitalized, 
+      you virtually can take total control of your portfolio anytime, anywhere. This is why you need LeadTrader; A total technology solution that empowers her clients to 
+      totally take control of their portfolio on the web, mobile or tablet.</p>
+</div>
+
+<button class="accordion">Are there requirements to use 
+    LeadTrader Application or open an account?</button>
+<div class="panel">
+<p>&#10039An Internet Access on your Computer or Mobile Phone.</p>
+  <p>&#10039 An Active e-mail address</p>
+    <p>&#10039 Accepted Means of Identification (National ID, Passport, Utility Bill, or drivers licence)</p>
+    <p>&#10039 An Operational Bank Account (Preferable a current account)</p>
+    <p>&#10039 Signature Specimen</p>
+    <p>&#10039 minimum of N50, 000 initial deposits or share certificate worth N20,000.</p>
+</div>
+
+<button class="accordion">How is LeadTrader a unique trading platform?</button>
+<div class="panel">
+    <p>&#10039 An LeadTrader is a unique trading platform 
+        because it provides the following and so much more….</p>
+    <p>&#10039 It’s a secured and safe way to transact 
+        with stocks using LeadTrader (High Level SSH Web Security)</p>
+    <p>&#10039 Gives you total control of your portfolio with backend compliance 
+        using real-time compliance checks.</p>
+    <p>&#10039 Provide in-depth market research information (LeadTrader MarketEgde)</p>
+    <p>&#10039 Prompt Execution of mandates 
+        through NSE FIX and its robust backend application.</p>
+    <p>&#10039 Direct access to your account.</p>
+    <p>&#10039 Experienced Support team.</p>
+</div>
+
+<button class="accordion">How do I open a stockbroking account?</button>
+<div class="panel">
+  <p>You can open an account via leadtraderng.com from any part of the world.
+       We currently have clients that are not within the country including clients in the oil and gas sector who work offshore with adequate access to their brokerage accounts as long as they have access to the internet. The minimum account opening documentation required for individual accounts are: one passport photograph, valid utility bill and a valid means of identification
+       (international passport, drivers licence or national ID card).</p>
+       <p>The minimum account opening documentation required
+            for corporate accounts are: certificate of incorporation, forms
+             CO2 and CO7, MeMat, passport photograph of the directors, utility bill, board resolution to open account, 
+            and signature mandate.</p>
+</div>
+
+<button class="accordion">What happens after opening an account online?</button>
+<div class="panel">
+  <p>You will get an automated immediate email upon 
+      submission of your form, and informing you of pending 
+      documentation. We will also notify 
+      you when your CSCS account is opened.</p>
+</div>
+
+<button class="accordion">Do I need a CSCS account to trade on LeadTrader?</button>
+<div class="panel">
+  <p>Every client needs to have a valid CSCS account before any successful trade can be carried out, we will open a CSCS account for you and 
+      can also help in moving your CSCS account from your old house to Lead Securities & Investment.</p>
+</div>
+
+<button class="accordion">Can I open a CSCS account without an in-house account?</button>
+<div class="panel">
+  <p>No. All trading transactions by investors on the floor 
+      of the Exchange are done via your stockbroker.
+
+    </p>
+</div>
+
+<button class="accordion">How do I execute my mandate on LeadTrader?</button>
+<div class="panel">
+  <p>With LeadTrader you don’t need to send your mandate via email, 
+      you can easily input your trade mandate via any of our trade channel and 
+      they are executed based on your trade instructions in real-time through our FIX link.</p>
+</div>
+</body>
+
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }
+</script>
+</html>

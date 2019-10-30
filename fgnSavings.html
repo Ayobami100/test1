@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="myStyle.css"/>
+    <title>FGN Savings</title>
+</head>
+<body>
+
+        <h1>FGN Savings Bond FAQs</h1>
+        <button class="accordion">What is a bond?</button>
+        <div class="panel">
+          <p>A bond is a long-term financial obligation (debt) of an entity that 
+              promises to pay a specified sum of money at specified future dates. Bonds are fixed income securities.</p>
+        </div>
+        
+        <button class="accordion">What are Federal Government Bonds?</button>
+        <div class="panel">
+          <p>Federal Government bonds are long-term debt instruments of the Federal Government of Nigeria with tenors of up to 
+              10 years. FGN bonds are issued by the DMO on behalf of the governments through authorized primary market dealers.
+               If you are an investor looking at investing money for a period longer than 1 year, or tend to have deposits or placements 
+              that have been running for more than a year, FGN bond
+               investment will likely suit your investment appetite</p>
+
+               <p>FGN bonds provide a desirable savings or investment vehicle for many reasons. 
+                   They tend to be safer than stocks because if you hold bonds until the maturity date, 
+                   you don’t risk the principal. However if you need to sell your bond before its maturity date,
+                    you may lose or gain a bit depending on the ruling price at the point of exit. Without exiting 
+                    prematurely, FGN bonds provide a regular, 
+                   steady source of income (typically, interest payments are received every 6 months).</p>
+        </div>
+        
+        <button class="accordion">How accessible is the FGN Bond?</button>
+        <div class="panel">
+          <p>Every investor has equal access to invest in the FGN bonds. 
+              There are however two avenues through which such investments can be done 
+              (Primary or Secondary Market) Notices of primary issues auction are 
+              placed a week to the auction in most of the daily newspapers, 
+              informing the public about the various tenors of bonds available for sale.</p>
+
+              <p>o participate in the auction, all that is needed is for you to fund your account with LEAD SECURITIES &
+                   INVESTMENT LIMITED or any of the other 19 Primary Dealers/ Market Makers (PDMMs), and fill the bid form which 
+                   can be downloaded, or picked up at our offices. 
+                  The bid can then be submitted through LEAD SECURITIES & INVESTMENT LIMITEDS or any of the other PDMMs.</p>
+
+
+                  <p>At the secondary market, LEAD SECURITIES & INVESTMENT LIMITED or 
+                      any of the other 19 PDMMs can be called for quotes 
+                      (Bid & Offer) and once a favorable price/yield is available, deals can be sealed.</p>
+        </div>
+
+        <button class="accordion">How often can I participate at such auctions?</button>
+        <div class="panel">
+          <p>There is no limit to how often to participate; the auction is open at advertised times for regular participation.</p>
+        </div>
+
+        <button class="accordion">How do I determine at what rate to Bid?</button>
+        <div class="panel">
+          <p>LAt LEAD SECURITIES & INVESTMENT LIMITED, any of our bond dealers will be
+               willing to offer advice on market expectation and to give historical data on 
+              bonds in issue. The investor will finally make the decision regarding what rate to buy 
+              after evaluating available information.</p>
+        </div>
+
+        <button class="accordion">How long do I have to wait to know if I’m successful or not?</button>
+        <div class="panel">
+          <p>Usually results are communicated a day after the auction and accounts are expected to 
+              be funded on or before the settlement date (which is two days after the auction).</p>
+        </div>
+
+        <button class="accordion">How can I redeem the bonds?</button>
+        <div class="panel">
+          <p>Bonds are redeemed at maturity 
+              but can be sold at any time through a 
+              Dealer such as LEAD SECURITIES & INVESTMENT LIMITED.</p>
+        </div>
+
+        <button class="accordion">What is the minimum amount I can invest?</button>
+        <div class="panel">
+          <p>A minimum value of N5,000.00 and multiples of N1,000 thereafter can be 
+              invested. An investment of a minimum value of N1,000,000.00 is however encouraged.</p>
+        </div>
+
+        <button class="accordion">How safe is my investment in FGN bonds?</button>
+        <div class="panel">
+          <p>Investments in FGN bonds are classified as risk free. This is because the issues are 
+              based on the full faith of the Federal Government of Nigeria, 
+              and is charged upon the general assets of the Federal Republic of Nigeria.</p>
+        </div>
+
+        <button class="accordion">Is it possible to have my interest paid monthly?</button>
+        <div class="panel">
+          <p>Coupon (interest) payments are semi-annual for now and as such interest is paid twice yearly</p>
+        </div>
+        
+    
+
+
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                panel.style.display = "none";
+                } else {
+                panel.style.display = "block";
+                }
+            });
+            }
+        </script>
+</body>
+</html>
